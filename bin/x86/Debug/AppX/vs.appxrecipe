@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-U2E4R5F</Machine>
+    <WindowsUser>Agustin Sanchez</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ca592dde-11c7-4a33-8930-88a58137695f</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Agustin Sanchez</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>31976EF51D6ED0ED60E7DC4B0007DC79A672506B5FDF83E9BDA983027D99942B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>ca592dde-11c7-4a33-8930-88a58137695f_1.0.0.0_x86__x1ggvgxrce3hp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>ca592dde-11c7-4a33-8930-88a58137695f_x1ggvgxrce3hp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>ca592dde-11c7-4a33-8930-88a58137695f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Agustin Sanchez</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-03-05T14:36:51.369</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.exe">
+      <PackagePath>entrypoint\IPO2 IPOKEMON.exe</PackagePath>
+      <Modified>2024-03-05T14:36:50.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2022-06-10T21:24:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2023-09-30T01:17:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\mewing.mp3">
+      <PackagePath>Assets\audio\mewing.mp3</PackagePath>
+      <Modified>2024-03-05T11:25:47.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\background.png">
+      <PackagePath>Assets\background.png</PackagePath>
+      <Modified>2024-03-05T11:25:11.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\blue_potion.png">
+      <PackagePath>Assets\blue_potion.png</PackagePath>
+      <Modified>2024-03-05T11:25:11.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\espiral.png">
+      <PackagePath>Assets\espiral.png</PackagePath>
+      <Modified>2024-03-05T11:25:47.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\garra.png">
+      <PackagePath>Assets\garra.png</PackagePath>
+      <Modified>2024-03-05T11:25:47.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\green_potion.png">
+      <PackagePath>Assets\green_potion.png</PackagePath>
+      <Modified>2024-03-05T11:25:11.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\heart.png">
+      <PackagePath>Assets\heart.png</PackagePath>
+      <Modified>2024-03-05T11:25:11.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\lanzallamas.png">
+      <PackagePath>Assets\lanzallamas.png</PackagePath>
+      <Modified>2024-03-05T11:25:47.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\mano_mewing.png">
+      <PackagePath>Assets\mano_mewing.png</PackagePath>
+      <Modified>2024-03-05T11:25:47.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\mewing.png">
+      <PackagePath>Assets\mewing.png</PackagePath>
+      <Modified>2024-03-05T11:25:47.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\shield.png">
+      <PackagePath>Assets\shield.png</PackagePath>
+      <Modified>2024-03-05T11:25:11.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-02-08T17:36:20.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-02-08T17:36:20.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\charizard.jpg">
+      <PackagePath>Assets\charizard.jpg</PackagePath>
+      <Modified>2024-03-05T11:25:47.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2024-03-05T11:23:19.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.xr.xml">
+      <PackagePath>IPO2 IPOKEMON.xr.xml</PackagePath>
+      <Modified>2024-03-05T14:36:50.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2024-03-05T14:36:50.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2024-03-05T14:36:50.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2023-09-30T04:03:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-03-05T12:25:24.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\Core\IPO2 IPOKEMON.exe">
+      <PackagePath>IPO2 IPOKEMON.exe</PackagePath>
+      <Modified>2024-03-05T14:36:51.357</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.31331.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.31327.1</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30704.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30704.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

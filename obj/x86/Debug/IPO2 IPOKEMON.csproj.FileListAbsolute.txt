@@ -1,0 +1,45 @@
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\IPO2 IPOKEMON.csproj.AssemblyReference.cache
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\App.g.i.cs
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\App.g.cs
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\MainPage.g.cs
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\App.xaml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\MainPage.xaml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\App.xbf
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\MainPage.xbf
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\IPO2 IPOKEMON.csproj.CoreCompileInputs.cache
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\App.xbf
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\MainPage.xbf
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.xr.xml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.exe
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.pdb
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\resources.pri
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\AppxManifest.xml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\Core\IPO2 IPOKEMON.exe
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\IPO2 IPOKEMON.build.appxrecipe
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\System.Runtime.dll
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\IPO2 IPO.D1538791.Up2Date
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\IPO2 IPOKEMON.exe
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\IPO2 IPOKEMON.pdb
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\priconfig.xml
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\resources.resfiles
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\pri.resfiles
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\qualifiers.txt
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316334480000000.json
