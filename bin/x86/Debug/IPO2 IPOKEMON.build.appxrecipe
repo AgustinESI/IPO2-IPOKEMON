@@ -34,8 +34,32 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.22621.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\evolucion.mp3">
+      <PackagePath>Assets\audio\evolucion.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\garra.mp3">
+      <PackagePath>Assets\audio\garra.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\lanzallamas.mp3">
+      <PackagePath>Assets\audio\lanzallamas.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\mewing.mp3">
       <PackagePath>Assets\audio\mewing.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\audio\recuperado.mp3">
+      <PackagePath>Assets\audio\recuperado.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\lanzallamas.png">
+      <PackagePath>Assets\lanzallamas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\lanzallamas_azul.png">
+      <PackagePath>Assets\lanzallamas_azul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\mano_mewing_black.png">
+      <PackagePath>Assets\mano_mewing_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\mewing_black.png">
+      <PackagePath>Assets\mewing_black.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\background.png">
       <PackagePath>Assets\background.png</PackagePath>
@@ -54,9 +78,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\heart.png">
       <PackagePath>Assets\heart.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\lanzallamas.png">
-      <PackagePath>Assets\lanzallamas.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Agustin Sanchez\OneDrive - Universidad de Castilla-La Mancha\Escritorio\IPO2 IPOKEMON\Assets\mano_mewing.png">
       <PackagePath>Assets\mano_mewing.png</PackagePath>

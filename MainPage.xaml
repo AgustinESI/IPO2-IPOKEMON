@@ -57,7 +57,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:09.5" Value="-32.406"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:10" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="-45"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
@@ -81,205 +81,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:10" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="sb_mega_evolution">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="2.461"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="2.461"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="2.47"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="2.47"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="64.666"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="64.666"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="-0.886"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="-0.886"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.Opacity)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:06" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.255"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFFFEA00"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
-            </ColorAnimationUsingKeyFrames>
-       
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="Red"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF208AB5"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cara" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0D7F67"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFB10D0D"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0C6553"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF7D2222"/>
-            </ColorAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0D826A"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF690E0E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0C6150"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFBD0F0F"/>
-            </ColorAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pierna_izq_muslo" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pierna_dch_muslo" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_dch_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="Black"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_ocultar" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="Black"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF84560A"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF3C3B3C"/>
-            </ColorAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_izq_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cola_inferior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF8A844E"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF208AB5"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cola_inferior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFB1AB6F"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFD8F0FD"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFF19600"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_oculta" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_oculta" Storyboard.TargetProperty="(Shape.Stroke).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_oculta" Storyboard.TargetProperty="(UIElement.OpacityMask).(SolidColorBrush.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF238A90"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6191"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF02646B"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF0F2F4E"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF238E94"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6191"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF02646B"/>
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF0F2F4E"/>
-            </ColorAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(UIElement.Opacity)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(UIElement.Opacity)">
-                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
-            </ColorAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.753"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
-                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF208AB5"/>
-            </ColorAnimationUsingKeyFrames>
-            <ColorAnimationUsingKeyFrames Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
-                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF208AB5"/>
-            </ColorAnimationUsingKeyFrames>
-        </Storyboard>
+
         <Storyboard x:Name="storyboard" x:Key="sb_garra_dragon">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="brazo_izq" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
@@ -394,6 +196,7 @@
 
 
         </Storyboard>
+
         <Storyboard x:Key="sb_lanza_llamas">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="lanzallamas" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
@@ -405,122 +208,9 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:05" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="sb_derrotado">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:03" Value="89.849"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:03" Value="168"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="00:00:03" Value="4.5"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_ln" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:03" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:03" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-        </Storyboard>
-        <Storyboard x:Key="sb_recuperado">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
-                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="89.849"/>
-                <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="168"/>
-                <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="4.5"/>
-                <SplineDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_ln" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Collapsed"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Visible"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
-                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="Visibility.Visible"/>
-                <DiscreteObjectKeyFrame KeyTime="00:00:01.5000000" Value="Visibility.Collapsed"/>
-            </ObjectAnimationUsingKeyFrames>
-        </Storyboard>
+
+
+
         <Storyboard x:Key="sb_mewing">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
@@ -591,6 +281,495 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:12" Value="0.968"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Name="sb_mega_evolucion">
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_izq_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="00:00:04" Storyboard.TargetName="pokemon" To="1" Storyboard.TargetProperty="(UIElement.Opacity)"/>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF238A90"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6191"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cola_inferior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFB1AB6F"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF208AB5"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF3C3B3C"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="ala_dch_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF238E94"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6191"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pierna_izq_muslo" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="pierna_dch_muslo" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="Red"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFFFEA00"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFAAD9F3"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.247"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.753"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(FrameworkElement.FocusVisualPrimaryBrush).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="Black"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E4C66"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(FrameworkElement.FocusVisualPrimaryBrush).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="White"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6091"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.66"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.381"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF02646B"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF20DAE8"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.9"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.9"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.117"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF02646B"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF49C3ED"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ala_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.66"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.498"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF90CDEE"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6193"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_dch" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF31AFE3"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF20DAE8"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF31AFE3"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF20DAE8"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF90CDEE"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF2E6193"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.247"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0.247"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="llama_izq" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Offset)">
+                <EasingDoubleKeyFrame KeyTime="00:00:02" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_exterior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cuerpo_ocultar" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cuerpo_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFFFF697"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF91CEEF"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cuerpo_interior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFB1AB6F"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF6F96A5"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cola_superior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF84560A"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_izq_interior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFF19600"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_interior" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="brazo_dch_oculta" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="cola_inferior" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF8A844E"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF175771"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames Storyboard.TargetName="cara" Storyboard.TargetProperty="(Shape.Fill).(SolidColorBrush.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FFEE9500"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF5E5D5E"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0D826A"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFE01919"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0C6150"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF272727"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[1].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0D7F67"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FF272727"/>
+            </ColorAnimationUsingKeyFrames>
+            <ColorAnimationUsingKeyFrames EnableDependentAnimation="True" Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(Shape.Fill).(GradientBrush.GradientStops)[0].(GradientStop.Color)">
+                <EasingColorKeyFrame KeyTime="00:00:02" Value="#FF0C6553"/>
+                <EasingColorKeyFrame KeyTime="00:00:04" Value="#FFE01919"/>
+            </ColorAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="199.819"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="176.106"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="-19.534"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="88.743"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="2.178"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="1.958"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="2.026"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="2.66"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="llama_grande" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:04" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="sb_derrotado">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="41.958"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="89.91"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="85.8667"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="184"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="-67.2"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="-144"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_ln" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.2000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01.5000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="sb_levantar">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="89.91"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="41.958"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="184"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="85.8667"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="-144"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="-67.2"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:02.9000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:02.9000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_ln" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_izq_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_iris" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_pupila" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ojo_dch_brillo" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Collapsed</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.4000000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="espiral_dch" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.4000000" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="espiral_izq" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.4000000" Value="1"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.8920000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+                <DiscreteObjectKeyFrame KeyTime="00:00:00.8920000">
+                    <DiscreteObjectKeyFrame.Value>
+                        <Visibility>Visible</Visibility>
+                    </DiscreteObjectKeyFrame.Value>
+                </DiscreteObjectKeyFrame>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
 
 
     </Page.Resources>
@@ -620,19 +799,14 @@
         <ProgressBar x:Name="pb_shield"  Grid.Column="1" Grid.Row="1" Margin="20,10,20,10" Background="#66D2D200" Foreground="Yellow" Value="75" VerticalAlignment="Stretch"/>
         <Image Grid.Row="0" Grid.Column="0" Source="/Assets/heart.png"/>
         <Image Grid.Row="1" Grid.Column="0" Source="/Assets/shield.png"/>
-        <Image x:Name="green_potion" Grid.Row="0" Grid.Column="2" Source="/Assets/green_potion.png"/>
+        <Image x:Name="green_potion" Grid.Row="0" Grid.Column="2" Source="/Assets/green_potion.png" PointerReleased="green_potion_PointerReleased"/>
         <Image x:Name="blue_potion" Grid.Row="1" Grid.Column="2" Source="/Assets/blue_potion.png"/>
         <TextBlock Grid.Column="1" Grid.Row="3" Text="Charizard" Margin="50,0,50,50" FontSize="24"/>
 
         <Canvas x:Name="pokemon" HorizontalAlignment="Center" Height="500" VerticalAlignment="Bottom" Width="500" Grid.Row="2" Grid.Column="1">
             <Grid x:Name="Charizard" RenderTransformOrigin="0.5,0.5" Width="800" Height="434" HorizontalAlignment="Left" Canvas.Top="29" VerticalAlignment="Top">
                 <Grid.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
+                    <CompositeTransform/>
                 </Grid.RenderTransform>
                 <Canvas x:Name="ala_izq" Margin="-16,21,0,187" RenderTransformOrigin="1.005,0.878" HorizontalAlignment="Left" Width="198">
                     <Canvas.RenderTransform>
@@ -656,6 +830,12 @@
 
                     </Path>
                     <Path Data="M27.186453,205.79431 L28.011547,185.05056 29.82701,176.98498 32.375,165.66499 47.49375,124.01836 54.665689,104.96712 68.496644,87.938409 85.850414,73.805458 95.701342,69.262724 109.5426,72.279998 118.82561,96.669619 123.60565,109.49303 132.88992,119.5506 142.44782,128.60242 146.70513,141.42583 150.72042,155.255 153.22999,167.82696 160.02274,178.93442 170.61095,190.18517 162.28635,194.03952 156.54598,199.3407 154.63959,198.96354 152.26718,197.79016 148.76194,195.00229 143.75195,192.59374 140.0734,191.27946 135.96223,190.61019 131.21532,191.15398 127.23131,192.36703 122.69687,194.8567 120.2821,195.73674 117.61315,197.11965 115.07129,197.49681 113.18107,197.21947 111.69869,195.5922 112.09936,193.56762 112.98331,191.27401 113.67327,189.07359 114.18164,186.62206 114.30873,184.86198 113.35553,182.03329 111.95751,179.5189 111.06786,178.38742 109.89661,177.55938 107.50925,176.56448 103.45438,175.50973 98.549194,174.30153 92.957101,173.73579 85.267972,173.17005 79.103959,173.67293 69.018088,175.11235 62.581865,177.38166 58.146817,179.94366 54.39591,182.39069 48.356315,186.53181 41.48442,192.46802 34.812036,198.94259 z" x:Name="ala_izq_interior" Height="137" Canvas.Left="27.188" Stroke="Black" Stretch="Fill" Canvas.Top="70.29" Width="142" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Path.FocusVisualPrimaryBrush>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="Black"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </Path.FocusVisualPrimaryBrush>
                         <Path.Fill>
                             <LinearGradientBrush>
                                 <GradientStop Color="#FF02646B" Offset="0.9"/>
@@ -959,7 +1139,7 @@
                             </LinearGradientBrush>
                         </Path.Fill>
                     </Path>
-                    <Ellipse x:Name="ojo_izq_pupila" Height="5" Canvas.Left="58.625" Stroke="Black" Canvas.Top="94.165" Width="3" Fill="Black"/>
+                    <Ellipse x:Name="ojo_izq_pupila" Height="5" Canvas.Left="58.625" Stroke="Black" Canvas.Top="94.165" Width="3" Fill="Black" FocusVisualPrimaryBrush="White"/>
                     <Ellipse x:Name="ojo_izq_brillo" Height="6" Canvas.Left="55.186" Canvas.Top="91.974" Width="5" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="White"/>
                     <Path Data="M9.5511083,1.0888668 L9.9908315,18.836973 1.3677712,24.865298 0.88655253,19.806002 z" x:Name="ojo_dch" Canvas.Left="90.864" Stroke="Black" Width="10" HorizontalAlignment="Center" Height="25" RenderTransformOrigin="0.499999990065892,0.456599836365096" Stretch="Fill" Canvas.Top="75.39" VerticalAlignment="Center">
                         <Path.Fill>
@@ -977,7 +1157,7 @@
                             </TransformGroup>
                         </Path.RenderTransform>
                     </Path>
-                    <Path Data="M229.39828,88.631188 L230.89377,97.431337 227.33553,100.61467 225.94318,95.689406 z" x:Name="ojo_dch_iris" Height="14" Stroke="Black" Stretch="Fill" Width="5" HorizontalAlignment="Center" Canvas.Left="91.375" Canvas.Top="87.29" VerticalAlignment="Center">
+                    <Path Data="M229.39828,88.631188 L230.89377,97.431337 227.33553,100.61467 225.94318,95.689406 z" x:Name="ojo_dch_iris" Height="14" Stroke="Black" Stretch="Fill" Width="5" HorizontalAlignment="Center" Canvas.Left="91.375" Canvas.Top="87.29" VerticalAlignment="Center" FocusVisualPrimaryBrush="White">
                         <Path.Fill>
                             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                                 <GradientStop Color="#FF0C6553" Offset="1"/>
@@ -1047,8 +1227,7 @@
                             </LinearGradientBrush>
                         </Path.Fill>
                     </Path>
-                    <Path Data="M37.947789,25.82321 C37.947789,30.297742 39.346826,38.409383 36.741938,41.503587 34.729531,43.894016 27.596005,39.040374 22.535493,38.248437 20.302034,37.898916 18.034207,36.632075 16.399622,36.632075 7.286924,36.632075 0.5,27.664983 0.5,18 0.5,12.135428 3.2199209,6.9446289 7.3948276,3.7692005 10.100287,1.7114316 11.313755,6.813 14.897,6.813 19.371209,6.813 14.799812,10.246227 17.772,13.313 20.853318,16.492376 37.947789,20.9036 37.947789,25.82321 z" x:Name="brazo_dch_oculta" HorizontalAlignment="Left" Height="39" Stroke="#FFEE9500" Stretch="Fill" Canvas.Top="38.373" VerticalAlignment="Center" Width="40" Fill="#FFEE9500" >
-                    </Path>
+                    <Path Data="M37.947789,25.82321 C37.947789,30.297742 39.346826,38.409383 36.741938,41.503587 34.729531,43.894016 27.596005,39.040374 22.535493,38.248437 20.302034,37.898916 18.034207,36.632075 16.399622,36.632075 7.286924,36.632075 0.5,27.664983 0.5,18 0.5,12.135428 3.2199209,6.9446289 7.3948276,3.7692005 10.100287,1.7114316 11.313755,6.813 14.897,6.813 19.371209,6.813 14.799812,10.246227 17.772,13.313 20.853318,16.492376 37.947789,20.9036 37.947789,25.82321 z" x:Name="brazo_dch_oculta" HorizontalAlignment="Left" Height="39" Stretch="Fill" Canvas.Top="38.373" VerticalAlignment="Center" Width="40" Fill="#FFEE9500" />
                 </Canvas>
             </Grid>
 
@@ -1062,12 +1241,7 @@
                     </LinearGradientBrush>
                 </Path.Fill>
                 <Path.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-90.174"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
+                    <CompositeTransform Rotation="-90.174"/>
                 </Path.RenderTransform>
 
             </Path>

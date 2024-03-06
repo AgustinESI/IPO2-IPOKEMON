@@ -1,5 +1,9 @@
 WinMetadata\Windows.winmd
+Assets\audio\evolucion.mp3
+Assets\audio\garra.mp3
+Assets\audio\lanzallamas.mp3
 Assets\audio\mewing.mp3
+Assets\audio\recuperado.mp3
 Assets\background.png
 Assets\blue_potion.png
 Assets\charizard.jpg
@@ -8,9 +12,12 @@ Assets\garra.png
 Assets\green_potion.png
 Assets\heart.png
 Assets\lanzallamas.png
+Assets\lanzallamas_azul.png
 Assets\LockScreenLogo.scale-200.png
 Assets\mano_mewing.png
+Assets\mano_mewing_black.png
 Assets\mewing.png
+Assets\mewing_black.png
 Assets\shield.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png

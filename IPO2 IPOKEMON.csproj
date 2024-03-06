@@ -130,7 +130,15 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\audio\evolucion.mp3" />
+    <Content Include="Assets\audio\garra.mp3" />
+    <Content Include="Assets\audio\lanzallamas.mp3" />
+    <Content Include="Assets\lanzallamas.png" />
+    <Content Include="Assets\lanzallamas_azul.png" />
+    <Content Include="Assets\mano_mewing_black.png" />
     <Content Include="Assets\audio\mewing.mp3" />
+    <Content Include="Assets\mewing_black.png" />
+    <Content Include="Assets\audio\recuperado.mp3" />
     <Content Include="Assets\background.png" />
     <Content Include="Assets\blue_potion.png" />
     <Content Include="Assets\charizard.jpg" />
@@ -138,7 +146,6 @@
     <Content Include="Assets\garra.png" />
     <Content Include="Assets\green_potion.png" />
     <Content Include="Assets\heart.png" />
-    <Content Include="Assets\lanzallamas.png" />
     <Content Include="Assets\mano_mewing.png" />
     <Content Include="Assets\mewing.png" />
     <Content Include="Assets\shield.png" />
