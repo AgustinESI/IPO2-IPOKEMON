@@ -57,7 +57,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:09.5" Value="-32.406"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:10" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.5" Value="-45"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
@@ -212,7 +212,7 @@
 
 
         <Storyboard x:Key="sb_mewing">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:04" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:12" Value="0"/>
@@ -476,7 +476,7 @@
                 <EasingDoubleKeyFrame KeyTime="00:00:02.5000000" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:03.5000000" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:03" Value="0"/>
@@ -484,17 +484,17 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Name="sb_derrotado">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="41.958"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="89.91"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="85.8667"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="184"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.0080000" Value="-67.2"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:02.9000000" Value="-144"/>
@@ -586,17 +586,17 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Name="sb_levantar">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="89.91"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="41.958"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="184"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="85.8667"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)">
                 <SplineDoubleKeyFrame KeyTime="00:00:00" Value="-144"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:00.8920000" Value="-67.2"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
@@ -753,11 +753,11 @@
                 <SplineDoubleKeyFrame KeyTime="00:00:01.4000000" Value="1"/>
                 <SplineDoubleKeyFrame KeyTime="00:00:02.9000000" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Opacity)">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.Opacity)">
                 <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="00:00:00.8920000" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Charizard" Storyboard.TargetProperty="(UIElement.Visibility)">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Charizard_grid" Storyboard.TargetProperty="(UIElement.Visibility)">
                 <DiscreteObjectKeyFrame KeyTime="00:00:00">
                     <DiscreteObjectKeyFrame.Value>
                         <Visibility>Visible</Visibility>
@@ -804,7 +804,7 @@
         <TextBlock Grid.Column="1" Grid.Row="3" Text="Charizard" Margin="50,0,50,50" FontSize="24"/>
 
         <Canvas x:Name="pokemon" HorizontalAlignment="Center" Height="500" VerticalAlignment="Bottom" Width="500" Grid.Row="2" Grid.Column="1">
-            <Grid x:Name="Charizard" RenderTransformOrigin="0.5,0.5" Width="800" Height="434" HorizontalAlignment="Left" Canvas.Top="29" VerticalAlignment="Top">
+            <Grid x:Name="Charizard_grid" RenderTransformOrigin="0.5,0.5" Width="800" Height="434" HorizontalAlignment="Left" Canvas.Top="29" VerticalAlignment="Top">
                 <Grid.RenderTransform>
                     <CompositeTransform/>
                 </Grid.RenderTransform>
